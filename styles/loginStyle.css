@@ -37,7 +37,11 @@ header {
     top: 40%;
     transform: translate(-50%, -50%);
 }
-.username .password {
+.username {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.password {
     text-align: center;
     padding-bottom: 10px;
 }
@@ -73,4 +77,9 @@ button {
     box-shadow: rgb(176, 215, 255) 0px 4px 0px;
     border: 2px solid rgb(173, 172, 181);
     color: rgb(45, 49, 66);
+    padding: 0.375rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    border-radius: 0.25rem;
 }
