@@ -27,6 +27,7 @@ header h1{
     height: 90px;
     padding-top: 0.5rem;
     background: rgb(45, 49, 66);
+    box-shadow: rgb(176, 215, 255) 0px 6px 0px;
 }
 .logBox {
     background-color: rgb(45, 49, 66);
@@ -67,7 +68,8 @@ input {
     line-height: 1.5;
     background-color: rgb(216, 213, 219);
     box-shadow: rgb(176, 215, 255) 0px 4px 0px;
-    outline-color: rgb(176, 215, 255);
+    outline-color: #eae8ff;
+    outline-offset: 2px;
     padding: 0.375rem 0.75rem;
     border-width: 2px;
     border-style: solid;
