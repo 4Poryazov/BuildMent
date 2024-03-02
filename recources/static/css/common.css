@@ -18,6 +18,18 @@ header h1{
     background: rgb(45, 49, 66);
     box-shadow: rgb(176, 215, 255) 0px 6px 0px;
 }
+.logout{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    text-align: end;
+    margin-left: 85%;
+    margin-top: 30px;
+}
+.logout:hover{
+    color: rgb(176, 215, 255);
+}
 footer{
     display: block;
 }
@@ -26,11 +38,23 @@ footer{
     right: 0;
     bottom: 0;
     left: 0;
-    text-align: center;
+    text-align: left;
     background: rgb(45, 49, 66);
 }
 footer h2{
     padding-top: 10px;
-    font-size: 20px;
+    padding-left: 15px;
+    font-size: 16px;
     color: rgb(216, 213, 219);
+}
+body {
+    background-color: rgb(216, 213, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoImg {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding-left: 30px;
+    padding-top: 5px;
 }

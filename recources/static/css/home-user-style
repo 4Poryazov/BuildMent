@@ -1,0 +1,10 @@
+.main{
+    padding-top: 200px;
+}
+.nav-bar{
+    display: inline;
+    margin-top: 200px;
+}
+.nav-bar-buttons{
+    display: inline;
+}

@@ -1,14 +1,5 @@
-body {
-    background-color: rgb(216, 213, 216);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.logoImg {
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    padding-left: 30px;
-    padding-top: 5px;
-}
+
+
 
 .logBox {
     background-color: rgb(45, 49, 66);

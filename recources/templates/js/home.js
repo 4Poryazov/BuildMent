@@ -2,8 +2,6 @@ var loginButton = document.getElementById("loginBtn");
 loginBtn.addEventListener('mouseover', changeColor);
 loginBtn.addEventListener('mouseout', returnColor)
 
-
-
 function changeColor() {
     loginButton.style.background = '#b0d7ff';
     loginButton.style.boxShadow = 'none';
