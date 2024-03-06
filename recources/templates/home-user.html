@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="/recources/static/css/common.css">
-    <link rel="stylesheet" href="/recources/static/css/home-user-style">
+    <link rel="stylesheet" href="/recources/static/css/home-user-style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -16,11 +16,27 @@
     <div class="main">
         <div class="nav-bar">
             <ul class="nav-bar-buttons">
-                <li><button>Информационно табло</button></li>
-                <li><button>Моята информация</button></li>
-                <li><button>Моите задължения</button></li>
-                <li><button>Моите обяви</button></li>
+                <li><button id="start">Начало</button></li>
+                <li><button id="information-table">Информационно табло</button></li>
+                <li><button id="my-information">Моята информация</button></li>
+                <li><button id="my-duty">Моите задължения</button></li>
+                <li><button id="my-offers">Моите обяви</button></li>
             </ul>
+        </div>
+        <div id="start-info">
+            <h2>Начало</h2>
+        </div>
+        <div id="info-table">
+            <h2>Информационно табло</h2>
+        </div>
+        <div id="my-info">
+            <h2>Моята информация</h2>
+        </div>
+        <div id="my-duty-info">
+            <h2>Моите задължения</h2>
+        </div>
+        <div id="my-offers-info">
+            <h2>Моите обяви</h2>
         </div>
         
     </div>
@@ -29,5 +45,6 @@
             <h2>© BuildMent 2024. All rights reserved.</h2>
         </div>
     </footer>
+    <script src="/recources/templates/js/user-home.js"></script>
 </body>
 </html>
