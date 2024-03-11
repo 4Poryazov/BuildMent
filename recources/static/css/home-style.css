@@ -4,12 +4,11 @@
     font-size: 20px;
 }
 .buttons{
-    margin-top: 35rem;
+    top: 35rem;
     position: relative;
     margin-left: 35rem;
 }
-button {
-    position: relative;
+button { 
     width: 250px;
     background: rgb(45, 49, 66);
     box-shadow: rgb(176, 215, 255) 0px 4px 0px;
