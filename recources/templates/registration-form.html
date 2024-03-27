@@ -1,21 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="/recources/static/css/common.css">
+    <link rel="stylesheet" href="/recources/static/css/registration-form-style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
         <img class="logoImg" src="/recources/static/img/logo-white-mini.png" alt="logo">
         <h1>BuildMent</h1>
         <a class="logout" id="logout-link" href="">Изход</a>
     </header>
+    <div class="text-info">
+        <h2>Регистрация на сграда</h1>
+            <h2 class="second-row" id="building-info">Стъпка 1 - Информация за сграда</h2>
+            <h2 class="second-row" id="user-info">Стъпка 2 - Регистриране на потребител</h2>
+    </div>
+    <div class="userRegistrationForm">
+        <h3>Информация</h3>
+        <div class="registrationFormBox">
+            <div id="user-registration-form">
+                <div class="name">
+                    <label for="name">Име и Фамилия</label>
+                </div>
+                <input class="input" type="text" id="name">
+                <div class="email">
+                    <label for="email">Имейл</label>
+                </div>
+                <input class="input" type="text" id="email">
+                <div class="password">
+                    <label for="password">Парола</label>
+                </div>
+                <input class="input" type="text" id="password">
+                <div class="repeat-password">
+                    <label for="repeat-password">Повтори парола</label>
+                </div>
+                <input class="input" type="text" id="repeat-password">
+                <div class="role">
+                    <label for="role">Аз съм:</label>
+                    <div class="radio">
+                        <input type="radio" name="role" value="role-cashier" id="role-cashier">Касиер
+                        <input type="radio" name="role" value="role-house-manager" id="role-house-manager">Домоуправител
+                    </div>
+                </div>
+                <div class="next-btn">
+                    <button>Следваща стъпка</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
-        <div class="footer">   
+        <div class="footer">
             <h2>© BuildMent 2024. All rights reserved.</h2>
         </div>
     </footer>
 </body>
+
 </html>
