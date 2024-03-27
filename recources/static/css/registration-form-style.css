@@ -11,7 +11,7 @@ h2{
     font-size: 1.2rem;
     color: rgb(112, 112, 114);
 }
-.userRegistrationForm {
+.userRegistrationForm, .buildingRegistrationForm {
     background-color: rgb(45, 49, 66);
     width: 400px;
     height: 450px;
@@ -71,7 +71,7 @@ h3 {
     border-image: initial;
     border-radius: 0.25rem;
 }
-.next-btn {
+.next-btn, .next-btn-build {
     position: absolute;
     left: 50%;
     top: 24rem;
@@ -81,6 +81,26 @@ h3 {
     margin-top: 15px;
     text-align: center;
 }
+.entrances{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.entrance-count{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.apartaments{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.offices{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
 .radio{
     margin-top: 10px;
     text-align: center;
@@ -88,7 +108,7 @@ h3 {
 button {
     background: rgb(216, 213, 219);
     box-shadow: rgb(176, 215, 255) 0px 4px 0px;
-    border: 2px solid rgb(173, 172, 181);
+    border: 3px solid rgb(173, 172, 181);
     color: rgb(45, 49, 66);
     padding: 0.375rem 1rem;
     width: max-content;
@@ -96,10 +116,4 @@ button {
     font-weight: bold;
     line-height: 1.5;
     border-radius: 0.25rem;
-}
-#user-registration-form{
-    display: none;
-}
-#user-info{
-    display: none;
 }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/recources/static/css/common.css">
+    <link rel="stylesheet" href="/recources/static/css/registration-form-style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="logoImg" src="/recources/static/img/logo-white-mini.png" alt="logo">
+        <h1>BuildMent</h1>
+        <a class="logout" id="logout-link" href="">Изход</a>
+    </header>
+    <div class="text-info">
+        <h2>Регистрация на сграда</h1>
+            <h2 class="second-row" id="building-info">Стъпка 1 - Информация за сграда</h2>
+    </div>
+    <div class="buildingRegistrationForm">
+        <h3>Информация</h3>
+        <div class="registrationFormBox">
+            <div id="building-registration-form">
+                <div class="name">
+                    <label for="name">Адрес</label>
+                </div>
+                <input class="input" type="text" id="name">
+                <div class="entrances">
+                    <label for="entrances">Профил за:</label>
+                    <div class="radio" id="radioBtns">
+                        <input type="radio" name="entrances" value="single-entrance" id="singleEntrance">
+                        <label for="singleEntrance">Един вход</label>
+                        <input type="radio" name="entrances" value="whole-building" id="wholeBuilding">
+                        <label for="wholeBuilding">Цяла сграда</label>
+                    </div>
+                </div>
+                <div class="entrance-count">
+                    <label for="entrance-count">Брой входове</label>
+                </div>
+                <input class="input" type="text" id="floors">
+                <div class="apartaments">
+                    <label for="apartaments">Брой апартаменти</label>
+                </div>
+                <input class="input" type="text" id="apartaments">
+                <div class="offices">
+                    <label for="offices">Брой офиси </label>
+                </div>
+                <input class="input" type="text" id="offices">
+                <div class="next-btn-build">
+                    <button id="button">Следваща стъпка</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h2>© BuildMent 2024. All rights reserved.</h2>
+        </div>
+    </footer>
+    <script src="/recources/templates/js/button.js"></script>
+    <script src="/recources/templates/js/registrtion-building.js"></script>
+</body>
+
+</html>
